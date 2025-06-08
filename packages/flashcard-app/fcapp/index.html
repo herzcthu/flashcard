@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Vocab Flash Cards</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="main-container">
+    <div id="flashcard" class="flashcard">
+      <div class="front"></div>
+      <div class="back">
+        <span id="meaning-en" style="display:none"></span>
+        <span id="meaning-mm" style="display:none"></span>
+        <span id="meaning-jp" style="display:none"></span>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="nextBtn">Next</button>
+      <button id="showEnBtn" class="lang-btn"><span class="flag" role="img" aria-label="English">🇬🇧</span> English</button>
+      <button id="showMmBtn" class="lang-btn"><span class="flag" role="img" aria-label="Burmese">🇲🇲</span> Burmese</button>
+      <button id="showJpBtn" class="lang-btn"><span class="flag" role="img" aria-label="Japanese">🇯🇵</span> Japanese</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

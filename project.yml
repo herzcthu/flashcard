@@ -1,0 +1,9 @@
+packages:
+  - name: flashcard-app
+    actions:
+      - name: fcapp
+        runtime: nodejs:18
+        main: index.js
+        web: true
+        limits:
+          timeout: 30000

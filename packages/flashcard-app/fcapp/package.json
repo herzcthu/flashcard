@@ -1,0 +1,9 @@
+{
+  "name": "fcapp",
+  "main": "index.js",
+  "runtime": "nodejs18",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
